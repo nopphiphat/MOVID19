@@ -1,18 +1,37 @@
-
-
 # MOVID19
 
+### Teammates:
+1. Nopphiphat Suraminitkul
+2. Juhi Sinha
+3. Somanath Jogelkar
+4. Ayush Singh
 
-LINK TO THE PROJECT VIDEO
+### Technologies used: 
+1. Frontend: HTML, CSS
+2. Backend: NodeJS
+3. Populate Data from API: Python
+4. Database: SQL
+
+### Covered in our files: 
+1. Requirements Model
+2. Analysis Model
+3. Design Model
+4. User Interface Design (Mock-up Prototype)
+5. Operational Prototype
+
+### Link to the Project's Demo Video:
 
 https://drive.google.com/open?id=1NQ_29oJO0p-Clx0G_1fVIXongLWomSxN
 
-SLIDE SETS
+
+### Slideset (Contains all the UML models, framework, diagrams) :
 
 https://docs.google.com/presentation/d/1GCcLusrrdkOxazyMsi2d3lCWmA3dnBGRSRysHiyEJuE/edit#slide=id.g80d777d9c8_0_99
 
+SQL Table creation and testing data is in the file of OOD1.sql. 
+ERD diagram has also been uploaded in the files.
 
-About
+## About
 This is a multipurpose system that was designed by Group 13 as a part of the final assessment for Object 
 Oriented Design course for Spring 2020. The system is called “MOVID-19”. The inspiration behind the name 
 comes from the consequence of the real life social distancing orders by governments all around the world. 
@@ -40,10 +59,10 @@ will also be able to populate the movies from the system.
 Members will have the ability to see all the movies that are available currently and vote for them as soon as a 
 movie watching event is created for their group. They will also be able to manage their profile and do basic functions 
 like watch movie trailers and read movie reviews for the movies that they are interested in.
+ 
+## Moderator's functions:
 
-Moderator Collapsible Info: 
-
-Invite user: Invite() 
+### Invite user: Invite() 
 
 Description: 
 
@@ -60,7 +79,7 @@ The user can then go on the Login page to input their information and login.
 Outcome: 
 The user is invited to the website and after putting their information, they should be able to login.
 
-Create Group: Create Group() 
+### Create Group: Create Group() 
 
 Description: 
 
@@ -75,10 +94,7 @@ Outcome:
 A group will be created with very minimal information and we will be able to add members into that group.
 
 
-
-
-
-Show Groups and Add User: Add User() 
+### Show Groups and Add User: Add User() 
 
 Description: 
 
@@ -95,7 +111,7 @@ Outcome:
 The selected website user will be inserted as a member of the selected group.
 
 
-Create Event: Create Event()
+### Create Event: Create Event()
 
 Description: 
 
@@ -114,7 +130,7 @@ You can select which event to look up the information from, which will show all 
 Outcome: 
 A new movie watching event will be created with specific dates, open and closed voting dates.
 
-Populate Movies: Populate Movies()
+### Populate Movies: Populate Movies()
 
 Description: 
 
@@ -129,7 +145,7 @@ The same movie list will also be populated into the vote function for the user o
 Outcome: 
 A new movie list, trailer url list and review url list will be populated into the database and will be displayed on the next webpage.
 
-Winner Display: Display Winner()
+### Winner Display: Display Winner()
 
 Description: 
 
@@ -144,9 +160,9 @@ At the end of the page, we will see the winning movie that has won the voting pr
 Outcome: 
 Upon voting, a movie wins the voting and is displayed by the website. That movie will be eventually screened for the group patrons.
 
-Member Collapsible Info:
+## Member's functions:
 
-Vote Event: Vote Event()
+### Vote Event: Vote Event()
 
 Description: 
 
@@ -162,11 +178,7 @@ To authenticate their vote for that particular voting event, users will have to 
 Outcome: 
 A vote will be cast for the movie that a user chooses and wants to be screened during show time. 
 
-
-
-
-
-Modify Event: Modify Event()
+### Modify Event: Modify Event()
 
 Description: 
 
@@ -182,7 +194,7 @@ To authenticate their re-vote for that particular voting event, users will have 
 Outcome: 
 A vote will be modified for the movie that a user chooses and wants to be screened during show time. 
 
-Unsubscribe from group: Unsubscribe()
+### Unsubscribe from group: Unsubscribe()
 
 Description: 
 
@@ -195,10 +207,3 @@ To authenticate their action for that particular group, users will have to enter
 
 Outcome: 
 The user that is currently logged in will be removed from the group that they chose to unsubscribe from.
-
-
-
-
-
-
-
